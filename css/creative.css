@@ -147,7 +147,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/code10.jpeg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -170,7 +170,7 @@ header.masthead {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: white;/*gba(255, 255, 255, 0.7);*/ }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -202,6 +202,11 @@ header.masthead {
       margin: 20px auto 0; } }
   .service-box p {
     margin-bottom: 0; }
+@media (max-width: 991px) {
+    .service-box {
+      padding-top: 15px; 
+      padding-bottom: 15px;
+      } }
 
 .portfolio-box {
   position: relative;
