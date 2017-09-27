@@ -147,7 +147,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/code10.jpeg");
+  background-image: url("../img/code12.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -193,20 +193,21 @@ header.masthead {
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
-
 .service-box {
-  max-width: 400px;
-  margin: 50px auto 0; }
-  @media (min-width: 992px) {
+  max-width: 150px;
+  margin: 0 auto;
+}
+/*  @media (min-width: 992px) {
     .service-box {
-      margin: 20px auto 0; } }
+      margin: 0 auto 0; } }
   .service-box p {
     margin-bottom: 0; }
 @media (max-width: 991px) {
     .service-box {
       padding-top: 15px; 
       padding-bottom: 15px;
-      } }
+      } */
+    }
 
 .portfolio-box {
   position: relative;
@@ -347,3 +348,8 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+.img-scales{
+  max-width: auto;
+  height: 100%;
+}
